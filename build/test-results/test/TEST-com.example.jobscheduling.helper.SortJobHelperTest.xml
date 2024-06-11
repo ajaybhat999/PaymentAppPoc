@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.jobscheduling.helper.SortJobHelperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-19T05:58:37" hostname="JCPSIK4T1" time="0.025">
+  <properties/>
+  <testcase name="shouldRunSortJobAndInsertDataOnCompletion" classname="com.example.jobscheduling.helper.SortJobHelperTest" time="0.025"/>
+  <system-out><![CDATA[11:28:37.175 [Test worker] INFO com.example.jobscheduling.helper.SortJobHelper - Running sort job with ID 1
+11:28:37.187 [Test worker] INFO com.example.jobscheduling.helper.SortJobHelper - Job Completed successfully
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

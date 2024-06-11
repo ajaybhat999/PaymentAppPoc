@@ -1,0 +1,17 @@
+server.port: 8045
+microservice.contextPath: '/api/v1/payment-app'
+
+spring:
+  application:
+    name: payment-web-app
+  batch:
+    job:
+      enabled: false
+  initializer:
+    enabled: false
+
+
+
+
+
+
