@@ -1,1 +1,1 @@
-# PaymentAppPoc
+# PaymentApp
