@@ -1,0 +1,27 @@
+ [
+    {
+      "value": "food",
+      "label": "Food",
+      "id": "1"
+    },
+    {
+      "value": "bills",
+      "label": "Bills",
+      "id": "2"
+    },
+    {
+      "value": "rent",
+      "label": "Rent",
+      "id": "3"
+    },
+    {
+      "value": "transport",
+      "label": "Transport",
+      "id": "4"
+    },
+    {
+      "value": "car",
+      "label": "Car",
+      "id": "5"
+    }
+  ]
