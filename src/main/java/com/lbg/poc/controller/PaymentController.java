@@ -17,6 +17,7 @@ Rest controller.
 @RestController
 @RequestMapping("${microservice.contextPath}")
 @Slf4j
+@CrossOrigin(origins="*")
 public class PaymentController {
 
     @Autowired

@@ -2,9 +2,9 @@
     {
       "itemAmount": 800,
       "expenseDate": "22.05.2024",
-      "itemName": "Fuel",
+      "itemName": "Car",
       "isDeleted": false,
-      "category": "car",
+      "category": "fuel",
       "id": "1"
     },
     {
@@ -16,27 +16,20 @@
       "id": "2"
     },
     {
-      "itemAmount": 800,
-      "expenseDate": "02.04.2024",
-      "itemName": "Electricity Bill",
+      "itemAmount": 4150,
+      "expenseDate": "10.01.2023",
+      "itemName": "Entertainment",
       "isDeleted": false,
-      "category": "bills",
+      "category": "entertainment",
       "id": "3"
     },
-    {
-      "itemAmount": 4000,
-      "expenseDate": "02.04.2024",
-      "itemName": "Bought Many Vegetables",
-      "isDeleted": false,
-      "category": "food",
-      "id": "4"
-    },
+
     {
       "itemAmount": 450,
       "expenseDate": "10.01.2023",
       "itemName": "Rent",
       "isDeleted": false,
-      "category": "rent",
-      "id": "5"
+      "category": "others",
+      "id": "4"
     }
  ]
