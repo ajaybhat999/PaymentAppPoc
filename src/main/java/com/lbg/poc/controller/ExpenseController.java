@@ -1,6 +1,9 @@
 package com.lbg.poc.controller;
 
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lbg.poc.model.Category;
 import com.lbg.poc.model.Expense;
 
@@ -14,6 +17,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 /*
@@ -40,6 +45,14 @@ public class ExpenseController {
         return new ResponseEntity<List<Category>>(categories,HttpStatus.OK);
     }
 
+    @GetMapping(value="/expenses-subcategory")
+    public ResponseEntity getAllExpensesBySubCategory() throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        InputStream inputStream = TypeReference.class.getResourceAsStream("/json/subcategories.json");
+
+        JsonNode json = mapper.readTree(inputStream);
+        return ResponseEntity.ok(json);
+    }
 }
 
 

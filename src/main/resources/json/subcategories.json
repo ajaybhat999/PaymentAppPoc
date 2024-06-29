@@ -1,0 +1,104 @@
+[
+
+  {
+    "category": "fuel",
+    "label": "Fuel",
+    "dataset": [
+      {
+        "amount": 21,
+        "day": "1"
+      },
+      {
+        "amount": 28,
+        "day": "3"
+      },
+      {
+        "amount": 41,
+        "day": "5"
+      },
+      {
+        "amount": 73,
+        "day": "10"
+      },
+      {
+        "amount": 99,
+        "day": "13"
+      },
+      {
+        "amount": 144,
+        "day": "15"
+      },
+      {
+        "amount": 319,
+        "day": "20"
+      }
+    ]
+  },
+  {
+    "category": "food",
+    "label": "Food",
+    "dataset": [
+      {
+        "amount": 281,
+        "day": "1"
+      },
+      {
+        "amount":441,
+        "day": "10"
+      },
+      {
+        "amount": 128,
+        "day": "13"
+      },
+      {
+        "amount": 373,
+        "day": "20"
+      }
+    ]
+  },
+  {
+    "category": "entertainment",
+    "label": "Entertainment",
+    "dataset": [
+      {
+        "amount": 401,
+        "day": "09"
+      },
+      {
+        "amount": 18,
+        "day": "19"
+      },
+      {
+        "amount": 373,
+        "day": "25"
+      },
+      {
+        "amount": 81,
+        "day": "30"
+      }
+    ]
+  },
+  {
+    "category": "others",
+    "label": "Others",
+    "dataset": [
+      {
+        "amount": 801,
+        "day": "1"
+      },
+      {
+        "amount": 40,
+        "day": "13"
+      },
+      {
+        "amount": 375,
+        "day": "20"
+      },
+      {
+        "amount": 1800,
+        "day": "22"
+      }
+    ]
+  }
+
+]
