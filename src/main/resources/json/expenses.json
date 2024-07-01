@@ -1,35 +1,802 @@
- [
-    {
-      "itemAmount": 800,
-      "expenseDate": "22.05.2024",
-      "itemName": "Car",
-      "isDeleted": false,
-      "category": "fuel",
-      "id": "1"
-    },
-    {
-      "itemAmount": 3000,
-      "expenseDate": "02.04.2024",
-      "itemName": "Vegetables",
-      "isDeleted": false,
-      "category": "food",
-      "id": "2"
-    },
-    {
-      "itemAmount": 4150,
-      "expenseDate": "10.01.2023",
-      "itemName": "Entertainment",
-      "isDeleted": false,
-      "category": "entertainment",
-      "id": "3"
-    },
-
-    {
-      "itemAmount": 450,
-      "expenseDate": "10.01.2023",
-      "itemName": "Rent",
-      "isDeleted": false,
-      "category": "others",
-      "id": "4"
-    }
- ]
+[
+  {
+    "itemAmount": "1189.95",
+    "expenseDate": "12.06.2022",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "1",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4317.92",
+    "expenseDate": "08.01.2023",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "2",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1082.66",
+    "expenseDate": "15.08.2024",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "3",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3327.12",
+    "expenseDate": "04.11.2021",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "4",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1938.21",
+    "expenseDate": "29.12.2023",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "5",
+    "deleted": false
+  },
+  {
+    "itemAmount": "469.89",
+    "expenseDate": "21.07.2023",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "6",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1583.47",
+    "expenseDate": "17.02.2022",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "7",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3698.59",
+    "expenseDate": "01.05.2024",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "8",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2148.20",
+    "expenseDate": "26.09.2022",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "9",
+    "deleted": false
+  },
+  {
+    "itemAmount": "389.12",
+    "expenseDate": "13.03.2021",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "10",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1992.11",
+    "expenseDate": "11.11.2021",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "11",
+    "deleted": false
+  },
+  {
+    "itemAmount": "376.45",
+    "expenseDate": "08.10.2023",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "12",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2167.88",
+    "expenseDate": "09.02.2024",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "13",
+    "deleted": false
+  },
+  {
+    "itemAmount": "184.50",
+    "expenseDate": "14.09.2021",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "14",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1497.21",
+    "expenseDate": "12.06.2023",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "15",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1117.63",
+    "expenseDate": "23.06.2024",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "16",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2434.95",
+    "expenseDate": "21.10.2023",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "17",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1328.56",
+    "expenseDate": "10.01.2024",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "18",
+    "deleted": false
+  },
+  {
+    "itemAmount": "496.13",
+    "expenseDate": "19.08.2022",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "19",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3487.85",
+    "expenseDate": "27.03.2023",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "20",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2918.44",
+    "expenseDate": "04.09.2021",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "21",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1422.89",
+    "expenseDate": "25.04.2022",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "22",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3961.90",
+    "expenseDate": "07.07.2023",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "23",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1878.77",
+    "expenseDate": "20.06.2021",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "24",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4685.39",
+    "expenseDate": "22.12.2022",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "25",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3754.47",
+    "expenseDate": "28.08.2024",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "26",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1640.12",
+    "expenseDate": "17.11.2021",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "27",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4451.64",
+    "expenseDate": "16.10.2022",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "28",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1708.50",
+    "expenseDate": "03.05.2023",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "29",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4268.01",
+    "expenseDate": "23.04.2024",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "30",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1275.93",
+    "expenseDate": "29.07.2021",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "31",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4997.14",
+    "expenseDate": "06.01.2022",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "32",
+    "deleted": false
+  },
+  {
+    "itemAmount": "315.33",
+    "expenseDate": "13.06.2023",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "33",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1516.71",
+    "expenseDate": "14.11.2024",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "34",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4163.52",
+    "expenseDate": "21.02.2022",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "35",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2976.68",
+    "expenseDate": "26.05.2021",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "36",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2990.15",
+    "expenseDate": "20.10.2023",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "37",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4602.32",
+    "expenseDate": "10.03.2024",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "38",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2627.84",
+    "expenseDate": "05.08.2021",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "39",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4881.44",
+    "expenseDate": "25.09.2022",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "40",
+    "deleted": false
+  },
+  {
+    "itemAmount": "297.12",
+    "expenseDate": "18.11.2023",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "41",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4994.02",
+    "expenseDate": "22.04.2024",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "42",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4597.03",
+    "expenseDate": "21.07.2022",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "43",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1198.63",
+    "expenseDate": "07.01.2021",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "44",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3873.30",
+    "expenseDate": "12.11.2023",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "45",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1385.75",
+    "expenseDate": "28.02.2021",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "46",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2650.11",
+    "expenseDate": "25.05.2022",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "47",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2640.98",
+    "expenseDate": "23.06.2023",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "48",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1265.02",
+    "expenseDate": "13.09.2021",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "49",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1924.14",
+    "expenseDate": "24.02.2023",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "50",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3283.96",
+    "expenseDate": "14.12.2024",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "51",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1146.41",
+    "expenseDate": "09.11.2023",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "52",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3377.73",
+    "expenseDate": "06.08.2021",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "53",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2629.70",
+    "expenseDate": "03.07.2024",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "54",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4857.33",
+    "expenseDate": "27.12.2023",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "55",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1234.78",
+    "expenseDate": "17.04.2021",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "56",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2429.15",
+    "expenseDate": "14.02.2024",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "57",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1275.39",
+    "expenseDate": "19.05.2023",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "58",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2756.84",
+    "expenseDate": "21.08.2022",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "59",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2029.21",
+    "expenseDate": "22.01.2024",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "60",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1324.41",
+    "expenseDate": "07.03.2021",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "61",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4296.94",
+    "expenseDate": "01.12.2022",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "62",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3140.54",
+    "expenseDate": "08.08.2024",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "63",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1338.50",
+    "expenseDate": "15.09.2023",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "64",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3070.68",
+    "expenseDate": "12.06.2024",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "65",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3660.56",
+    "expenseDate": "19.02.2022",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "66",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4480.32",
+    "expenseDate": "11.04.2023",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "67",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4583.11",
+    "expenseDate": "18.07.2024",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "68",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1687.94",
+    "expenseDate": "29.05.2021",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "69",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3356.22",
+    "expenseDate": "22.11.2023",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "70",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3125.78",
+    "expenseDate": "24.06.2022",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "71",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3031.66",
+    "expenseDate": "27.08.2024",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "72",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2601.13",
+    "expenseDate": "05.01.2022",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "73",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3361.47",
+    "expenseDate": "12.10.2021",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "74",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4725.00",
+    "expenseDate": "15.05.2023",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "75",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2884.12",
+    "expenseDate": "23.11.2024",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "76",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4872.91",
+    "expenseDate": "25.02.2022",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "77",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4293.30",
+    "expenseDate": "18.04.2024",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "78",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4564.61",
+    "expenseDate": "09.07.2021",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "79",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4978.86",
+    "expenseDate": "16.09.2022",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "80",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2373.13",
+    "expenseDate": "10.08.2024",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "81",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2794.55",
+    "expenseDate": "07.02.2021",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "82",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3592.49",
+    "expenseDate": "12.11.2022",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "83",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4765.20",
+    "expenseDate": "16.10.2021",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "84",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1585.12",
+    "expenseDate": "08.05.2023",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "85",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1876.44",
+    "expenseDate": "30.07.2022",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "86",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3280.00",
+    "expenseDate": "01.01.2023",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "87",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2360.23",
+    "expenseDate": "14.03.2024",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "88",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2975.36",
+    "expenseDate": "11.11.2021",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "89",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3484.79",
+    "expenseDate": "02.02.2022",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "90",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4728.66",
+    "expenseDate": "13.09.2023",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "91",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1960.57",
+    "expenseDate": "20.01.2021",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "92",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4235.81",
+    "expenseDate": "05.08.2022",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "93",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1524.43",
+    "expenseDate": "17.07.2024",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "94",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2677.10",
+    "expenseDate": "09.04.2021",
+    "itemName": "Rent",
+    "category": "others",
+    "id": "95",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3976.89",
+    "expenseDate": "24.10.2022",
+    "itemName": "Vegetables",
+    "category": "food",
+    "id": "96",
+    "deleted": false
+  },
+  {
+    "itemAmount": "2078.74",
+    "expenseDate": "28.06.2024",
+    "itemName": "Car",
+    "category": "fuel",
+    "id": "97",
+    "deleted": false
+  },
+  {
+    "itemAmount": "1109.50",
+    "expenseDate": "14.11.2023",
+    "itemName": "Books",
+    "category": "entertainment",
+    "id": "98",
+    "deleted": false
+  },
+  {
+    "itemAmount": "3056.23",
+    "expenseDate": "23.03.2021",
+    "itemName": "Music",
+    "category": "entertainment",
+    "id": "99",
+    "deleted": false
+  },
+  {
+    "itemAmount": "4796.58",
+    "expenseDate": "13.12.2022",
+    "itemName": "Movie",
+    "category": "others",
+    "id": "100",
+    "deleted": false
+  }
+]
