@@ -1,0 +1,43 @@
+{
+  "producerId":null,
+  "producerName":"Surya Deo Kumar",
+  "buname":"Data & ML",
+  "subcategoryBU":"Federate migration",
+  "primaryPoc":"Sunil Hedge",
+  "secondaryPoc":"Charu singh",
+  "dataEntityCatalogueSet":[{
+    "entityId":null,
+    "name":"DAta entity",
+    "type":" data type",
+    "classification":"data classification",
+    "persistenceLayer":"GCS",
+    "publishingFrequency":"1",
+    "publishingType":"once",
+    "dataOwner":"M R",
+    "backupDataOwner":"M R",
+    "primaryDataSteward":"Test ownwe",
+    "backupDataSteward":"backup owner",
+    "backupDataArchitect":" back up architect",
+    "dataArchitect":"data architect",
+    "entityGDMLink":" test link",
+    "entityCollbraLink":" test collibra link",
+    "lastPublishedVersion":" 1",
+    "dataAttributeCatalogueSet":[{
+      "attributeId":null,
+      "attributeName":"test attribute",
+      "attributeDataType":"test data arrtibute",
+      "attributeNullable":"yes"
+    }],
+    "dataQualityCatalogues":[{
+      "consumerId":null,
+      "consumerName":"Test Consumer name",
+      "BUName":"Consumer BU name",
+      "subcategoryBU":"sub category BU",
+      "primaryPoc":" primaryPoc name",
+      "secondaryPoc":"secondaryPoc name"
+
+    }]
+  }]
+
+
+}

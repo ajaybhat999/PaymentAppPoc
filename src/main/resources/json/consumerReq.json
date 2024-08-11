@@ -1,0 +1,11 @@
+{
+
+  "consumerId":null,
+  "consumerName":"consumer name",
+  "buname":"Data & ML",
+  "subcategoryBU":"Federate",
+  "primaryPoc":"primary poc",
+  "secondaryPoc":"secondary poc",
+  "consumerAccessLogSet" :[{"id":null,"entityId":1,"accessedTimestamp":"2024-07-09 00:00:00"}],
+  "consumerEntitlementCatalogueSet":[{"entitlementId":null,"entityId":1,"entitlementDetails":"Federate migration"}]
+} 

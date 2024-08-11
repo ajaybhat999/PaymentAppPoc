@@ -1,17 +1,19 @@
-server.port: 8080
-microservice.contextPath: '/api/v1/payment-app'
+server.port: 8081
+microservice.contextPath: '/v1/foundation-registration/'
 
 spring:
   application:
-    name: payment-web-app
-  batch:
-    job:
-      enabled: false
-  initializer:
-    enabled: false
-
-
-
-
-
-
+    name: foundation-registration-api
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings.trace: false
+      settings.web-allow-others: false
